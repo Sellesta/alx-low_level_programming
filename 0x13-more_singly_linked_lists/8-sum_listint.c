@@ -1,11 +1,14 @@
 #include "lists.h"
 
 /**
- * sum_listint - Function entry point
- * Description - A function that returns the sum of all the data (n) of a listint_t linked list
+ * sum_listint - Function entry
+ * Description - A function that returns the sum of all the data (n)
+ * of a listint_t linked list
  * @head: address of the head node
- * Return: total number the data, if the list is empty, return 0
+ * Return: sum of all the data
+ * if the list is empty, return 0
  */
+
 int sum_listint(listint_t *head)
 {
 	int sum = 0;
